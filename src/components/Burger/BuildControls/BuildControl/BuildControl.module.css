@@ -11,7 +11,6 @@
   padding: 5px;
   margin: 0 5px;
   width: 80px;
-  border: 1px solid #aa6817;
   cursor: pointer;
   outline: none;
 }
@@ -36,23 +35,25 @@
 }
 
 .BuildControl .Less {
-  background-color: #d39952;
+  background-color: #eb0000;
+  border: 1px solid #eb0000;
   color: white;
 }
 
 .BuildControl .More {
-  background-color: #8f5e1e;
+  background-color: #5c9210;
+  border: 1px solid #5c9210;
   color: white;
 }
 
 .BuildControl .Less:hover,
 .BuildControl .Less:active {
-  background-color: #daa972;
+  background-color: #8b0000;
   color: white;
 }
 
 .BuildControl .More:hover,
 .BuildControl .More:active {
-  background-color: #99703f;
+  background-color: #274200;
   color: white;
 }
